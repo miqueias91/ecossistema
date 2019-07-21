@@ -1,0 +1,46 @@
+nav {
+    background-color: #01579b;
+}
+h1 {
+	font-size: 1.5rem;
+}
+h2 {
+	font-size: 1.4rem;
+}
+h3 {
+	font-size: 1.3rem;
+}
+h4 {
+	font-size: 1.2rem;
+}
+h5 {
+	font-size: 1.1rem;
+}
+h6 {
+	font-size: 1rem;
+}
+.section {
+    padding-bottom: 0;
+}
+.titulo_pagina h1, .titulo_pagina h2, .titulo_pagina h3, .titulo_pagina h4, .titulo_pagina h5, .titulo_pagina h6 {
+	font-weight: bold;
+}
+td, th {
+    padding: 7px 5px;
+}
+.pagination li.active {
+    background-color: #01579b;
+    color: #fff;
+}
+.resumo_pequeno {
+	max-width: 15ch;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.resumo_medio {
+	max-width: 30ch;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
