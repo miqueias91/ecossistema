@@ -84,16 +84,16 @@
         <div class="row">
           <div class="col s12 center-align">
             @if($registro[0]->status == 'pendente')
-              <button class="btn light-blue darken-4 text-center" type="button" id="triar_pedido">Triar pedido</button>
+              <button title="Triar pedido" class="btn light-blue darken-4 text-center" type="button" id="triar_pedido">Triar pedido</button>
             @elseif ($registro[0]->status == 'triagem')
 
-              <a target="_BLANK" class="btn light-blue darken-4" href="{{ route('admin.pedidos.imprimirTriagem',$registro[0]->pedido_id) }}">
+              <a title="Imprimir pedido para triagem" target="_BLANK" class="btn light-blue darken-4" href="{{ route('admin.pedidos.imprimirTriagem',$registro[0]->pedido_id) }}">
                 Imprimir pedido para triagem
               </a>
 
-              <button class="btn light-blue darken-4 text-center" type="button" id="finalizar_pedido">Finalizar pedido</button>
+              <button title="Finalizar pedido" class="btn light-blue darken-4 text-center" type="button" id="finalizar_pedido">Finalizar pedido</button>
             @else
-              <a target="_BLANK" class="btn light-blue darken-4" href="{{ route('admin.pedidos.imprimirPedido',$registro[0]->pedido_id) }}">
+              <a title="Imprimir pedido" target="_BLANK" class="btn light-blue darken-4" href="{{ route('admin.pedidos.imprimirPedido',$registro[0]->pedido_id) }}">
                 Imprimir pedido
               </a>
             @endif

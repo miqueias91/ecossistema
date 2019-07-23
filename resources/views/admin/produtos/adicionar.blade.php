@@ -12,7 +12,7 @@
       @include('admin.produtos._form')
       <div class="row">
         <div class="col s12 center-align">
-          <button class="btn light-blue darken-4 text-center" type="button" id="salvar_produto">Salvar</button>
+          <button title="Salvar" class="btn light-blue darken-4 text-center" type="button" id="salvar_produto">Salvar</button>
         </div>
       </div>
     </form>

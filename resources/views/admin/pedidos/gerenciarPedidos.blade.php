@@ -51,7 +51,7 @@
           </td>
 
           <td style="text-align: center;">
-            <a title="Gerenciar" class="btn light-blue darken-4 text-center" href="{{ route('admin.pedidos.gerenciar',$registro->id) }}"><i class="material-icons right">open_in_new</i></a>
+            <a title="Gerenciar" class="btn light-blue darken-4 text-center" href="{{ route('admin.pedidos.gerenciar',$registro->id) }}">Gerenciar</a>
           </td>
           
         </tr>

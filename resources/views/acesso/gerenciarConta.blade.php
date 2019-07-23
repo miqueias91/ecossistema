@@ -30,7 +30,7 @@
 	</div>
 	<div class="row">
 	    <div class="col s12 center-align">
-			<button id="atualizar_conta" class="btn light-blue darken-4 text-center" type="button" name="action">Atualizar</button>		
+			<button title="Atualizar" id="atualizar_conta" class="btn light-blue darken-4 text-center" type="button" name="action">Atualizar</button>		
 	    </div>
 	</div>
 </form>

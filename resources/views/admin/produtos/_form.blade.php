@@ -76,7 +76,7 @@
 <div class="file-field  input-field">
   <div class="btn light-blue darken-4 text-center">
     <span>Imagem</span>
-    <input type="file" name="imagem" id="imagem">
+    <input title="Imagem" type="file" name="imagem" id="imagem">
   </div>
   <div class="file-path-wrapper">
     <input class="file-path validate" type="text">

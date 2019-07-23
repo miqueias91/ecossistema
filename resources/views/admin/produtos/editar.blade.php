@@ -13,7 +13,7 @@
       @include('admin.produtos._form')
       <div class="row">
         <div class="col s12 center-align">
-          <button class="btn light-blue darken-4 text-center" type="button" id="atualizar_produto">Atualizar</button>
+          <button title="Atualizar" class="btn light-blue darken-4 text-center" type="button" id="atualizar_produto">Atualizar</button>
         </div>
       </div>
     </form>

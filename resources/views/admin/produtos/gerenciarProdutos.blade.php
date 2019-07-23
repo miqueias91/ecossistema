@@ -32,10 +32,10 @@
           <td style="text-align: center;"><img height="60" src="{{asset($registro->imagem)}}" alt="{{ $registro->nome_produto }}" /></td>
           <td style="text-align: center;">{{ $registro->publicado }}</td>
           <td style="text-align: center;">
-            <a title="Editar" class="btn light-blue darken-4 text-center" href="{{ route('admin.produtos.editar',$registro->id) }}"><i class="material-icons right">edit</i></a>
+            <a title="Editar" class="btn light-blue darken-4 text-center" href="{{ route('admin.produtos.editar',$registro->id) }}">Editar</a>
           </td>
           <td style="text-align: center;">      
-            <a title="Deletar" idproduto="{{$registro->id}}" class="btn light-blue darken-4 deletar_produto" href="#"><i class="material-icons right">delete_forever</i></a>
+            <a title="Deletar" idproduto="{{$registro->id}}" class="btn light-blue darken-4 deletar_produto" href="#">Deletar</a>
           </td>
         </tr>
       @endforeach
@@ -45,7 +45,7 @@
 
 <div class="row">
   <div class="col s12 center-align">
-    <a class="btn light-blue darken-4" href="{{ route('admin.produtos.adicionar') }}">Adicionar</a>
+    <a title="Adicionar" class="btn light-blue darken-4" href="{{ route('admin.produtos.adicionar') }}">Adicionar</a>
   </div>
 </div>
 @endsection

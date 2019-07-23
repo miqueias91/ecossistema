@@ -24,7 +24,7 @@
 			<div class="file-field  input-field">
 				<div class="btn light-blue darken-4 text-center">
 					<span>Logo</span>
-					<input type="file" name="imagem">
+					<input title="Logo" type="file" name="imagem">
 				</div>
 				<div class="file-path-wrapper">
 					<input class="file-path validate" type="text">
@@ -135,9 +135,9 @@
 	<div class="row">
 	    <div class="col s12 center-align">
 		@if(isset($registros[0]->id))
-			<button id="salvar_empresa" class="btn light-blue darken-4 text-center" type="button" name="action">Atualizar</button>
+			<button title="Atualizar" id="salvar_empresa" class="btn light-blue darken-4 text-center" type="button" name="action">Atualizar</button>
 		@else
-			<button id="salvar_empresa" class="btn light-blue darken-4 text-center" type="button" name="action">Salvar</button>
+			<button title="Salvar" id="salvar_empresa" class="btn light-blue darken-4 text-center" type="button" name="action">Salvar</button>
 		@endif
 	    </div>
 	</div>

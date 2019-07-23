@@ -288,7 +288,7 @@ class PedidosController extends Controller{
 		$emblema = $dadosEmpresa[0]->imagem;
 		$razao_social = strtoupper($dadosEmpresa[0]->razao_social);
 		$cnpj = Mascara::mascaraCNPJ_CPF($dadosEmpresa[0]->cnpj_cpf);
-		$logradouro = strtoupper($dadosEmpresa[0]->endereco);
+		$logradouro = utf8_decode(strtoupper($dadosEmpresa[0]->endereco));
 		$numero = $dadosEmpresa[0]->numero;
 		$complemento = $dadosEmpresa[0]->complemento;
 		$bairro = $dadosEmpresa[0]->bairro;

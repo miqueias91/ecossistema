@@ -47,7 +47,7 @@
                     </div>
                     <div class="row">
                         <div class="col s12">
-                            <button id="entrar" class="btn light-blue darken-4" type="button" name="action">Entrar<i class="material-icons right">send</i></button>
+                            <button title="Entrar" id="entrar" class="btn light-blue darken-4" type="button" name="action">Entrar</button>
                         </div>
                     </div>
                   </form>
