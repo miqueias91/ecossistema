@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Login | Ecossistema</title>
+        <title>Login | Construmob</title>
     </head>
     <body>
         <header>
@@ -18,7 +18,7 @@
         </header>
         <div class="container">
             <div class="section">
-                <h1>Ecossistema</h1>
+                <h1>Construmob</h1>
             </div>
             <div class="divider"></div>
         </div>
@@ -29,7 +29,7 @@
                     {{ csrf_field() }}
                     <div class="row">
                         <div class="section">
-                            <h6>Bem-vindo ao Ecossistema</h6>
+                            <h6>Bem-vindo ao Construmob</h6>
                         </div>
                         <div class="divider"></div>
                     </div>

@@ -27,9 +27,9 @@
                   <a href="#">Login</a>
                  </li>
                @else
-                 <a href="{{route('admin.inicio')}}" class="brand-logo" style="font-size: 24px;">Ecossistema</a>
+                 <a href="{{route('admin.inicio')}}" class="brand-logo" style="font-size: 24px;">Construmob</a>
                @endif
-              <!--<a href="#!" class="brand-logo">Ecossistema</a>-->
+              <!--<a href="#!" class="brand-logo">Construmob</a>-->
               <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i>
               </a>
               <ul class="right hide-on-med-and-down">

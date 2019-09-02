@@ -1,6 +1,6 @@
 @extends('layout.content')
 
-@section('titulo','Gerenciar Pedidos | Ecossistema')
+@section('titulo','Gerenciar Pedidos | Construmob')
 
 @section('conteudo')
   <div class="section titulo_pagina">

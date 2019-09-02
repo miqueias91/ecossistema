@@ -1,5 +1,5 @@
 @extends('layout.content')
-@section('titulo','Gerenciar Conta | Ecossistema')
+@section('titulo','Gerenciar Conta | Construmob')
 @section('conteudo')
 <div class="section titulo_pagina">
 	<h1>Gerenciar Conta</h1>

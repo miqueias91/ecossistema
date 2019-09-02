@@ -1,5 +1,5 @@
 nav {
-    background-color: #01579b;
+    background-color: #FE8043;
 }
 h1 {
 	font-size: 1.5rem;
@@ -29,7 +29,7 @@ td, th {
     padding: 7px 5px;
 }
 .pagination li.active {
-    background-color: #01579b;
+    background-color: #FE8043;
     color: #fff;
 }
 .resumo_pequeno {
@@ -43,4 +43,7 @@ td, th {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+.light-blue.darken-4 {
+    background-color: #FE8043 !important;
 }
