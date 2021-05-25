@@ -21,7 +21,8 @@ class PedidoItem extends Model
       $registros = DB::table('pedido_itens')
       ->join('pedidos', 'pedido_itens.pedido_id', '=', 'pedidos.id')
       ->join('clientes', 'pedidos.user_clientes', '=', 'clientes.id')
-      ->join('produtos', 'pedido_itens.produtos_id', '=', 'produtos.id')
+      //->join('produtos', 'pedido_itens.produtos_id', '=', 'produtos.id')
+      ->join('empresas_produtos', 'pedido_itens.produtos_id', '=', 'empresas_produtos.id')
       ->join('unidades', 'pedido_itens.unidade_id', '=', 'unidades.id')
       ->select( 'pedido_itens.id',
                 'pedido_itens.status_item',
@@ -42,7 +43,9 @@ class PedidoItem extends Model
                 'pedido_itens.quantidade',
                 'pedido_itens.pedido_id',
                 'pedido_itens.valor_produto',
-                'produtos.nome_produto',
+                //'produtos.nome_produto',
+                'empresas_produtos.descricao_produto',
+                'empresas_produtos.nome_produto',
                 'unidades.descricao',
                 'unidades.abreviacao'
               )->where('pedido_itens.pedido_id',$id_pedido)

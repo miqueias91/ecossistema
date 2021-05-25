@@ -35,15 +35,15 @@
           </td>
 
           <td style="text-align: center;">
-            {{ isset($registro->data_pedido) ? implode('/', array_reverse(explode('-', $registro->data_pedido))) : null }}
+            {{ isset($registro->data_pedido) ? $registro->data_pedido : null }}
           </td>
 
           <td style="text-align: center;">
-            {{ isset($registro->data_triagem) ? implode('/', array_reverse(explode('-', $registro->data_triagem))) : null }}
+            {{ isset($registro->data_triagem) ? $registro->data_triagem : null }}
           </td>
 
           <td style="text-align: center;">
-            {{ isset($registro->data_finalizado) ? implode('/', array_reverse(explode('-', $registro->data_finalizado))) : null }}
+            {{ isset($registro->data_finalizado) ? $registro->data_finalizado : null }}
           </td>
 
           <td style="text-align: center;">
